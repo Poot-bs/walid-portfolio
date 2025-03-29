@@ -1,0 +1,81 @@
+// Color Palette
+$black: #0a0a0a;
+$black-2: #121212;
+$white: #f5f5f5;
+$gold: #D4AF37;
+$gold-light: #f1d485;
+$gray: #2a2a2a;
+$gray-light: #3d3d3d;
+
+// Typography
+$font-main: 'Rajdhani', sans-serif;
+$font-code: 'Fira Code', monospace;
+
+// Spacing
+$section-padding: 8rem 10%;
+$section-padding-mobile: 5rem 2rem;
+$card-padding: 2.5rem;
+
+// Borders
+$border-gold: 1px solid rgba($gold, 0.3);
+$border-gold-thick: 2px solid $gold;
+
+// Transitions
+$transition-fast: all 0.3s ease;
+$transition-slow: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+
+// Shadows
+$text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+$box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+$gold-glow: 0 0 15px rgba($gold, 0.4);
+// Add these to your existing variables
+$shadow-dark: 0 5px 30px rgba(0, 0, 0, 0.5);
+$shadow-gold: 0 0 15px rgba($gold, 0.4);
+$shadow-light: 0 2px 10px rgba($white, 0.1);
+// Colors
+$white: #ffffff;
+$black: #222222;
+$gray-dark: #555555;
+$gray: #888888;
+$gray-light: #e0e0e0;
+$gray-lighter: #f5f5f5;
+
+$primary: #4361ee; // Modern blue
+$primary-light: lighten($primary, 10%);
+$primary-dark: darken($primary, 10%);
+
+$success: #4bb543;
+$error: #ff3333;
+
+// Dark mode colors
+$dark-bg: #121212;
+$dark-surface: #1e1e1e;
+$dark-text: #f5f5f5;
+
+// Fonts
+$font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+$font-code: 'Fira Code', monospace;
+
+// Spacing
+$spacing-xs: 0.5rem;
+$spacing-sm: 1rem;
+$spacing-md: 2rem;
+$spacing-lg: 3rem;
+$spacing-xl: 4rem;
+
+// Transitions
+$transition-fast: 0.2s ease;
+$transition-medium: 0.3s ease;
+$transition-slow: 0.5s ease;
+
+// Border radius
+$radius-sm: 4px;
+$radius-md: 8px;
+$radius-lg: 12px;
+$radius-full: 9999px;
+
+// Shadows
+$shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+$shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+$shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+$shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.1);

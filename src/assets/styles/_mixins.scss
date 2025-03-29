@@ -1,0 +1,29 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @mixin gold-gradient-text {
+    background: linear-gradient(90deg, $white 50%, $gold 50%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  @mixin section-heading {
+    font-size: clamp(1.8rem, 5vw, 3rem);
+    margin-bottom: 2rem;
+    position: relative;
+    display: inline-block;
+  
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      width: 50%;
+      height: 3px;
+      background: $gold;
+    }
+  }

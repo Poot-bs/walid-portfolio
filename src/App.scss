@@ -1,0 +1,63 @@
+@use './assets/styles/variables' as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; // 1rem = 10px
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-main;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: $black;
+  background: $white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  &.dark-mode {
+    background: $dark-bg;
+    color: $dark-text;
+  }
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.main-content {
+  flex: 1;
+  padding-top: 8rem; // Account for fixed header
+}
+
+// Utility classes
+.highlight {
+  color: $primary;
+  font-weight: 600;
+}
+
+// Dark mode overrides
+.dark-mode {
+  .container {
+    color: $dark-text;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding-top: 7rem;
+  }
+}
